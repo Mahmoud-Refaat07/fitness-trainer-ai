@@ -1,3 +1,4 @@
+import TerminalOverlay from "@/components/TerminalOverlay";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
@@ -92,6 +93,31 @@ const page = () => {
                 >
                   <Link href="#how-it-works">See How It Works</Link>
                 </Button>
+              </div>
+            </div>
+            {/* RIGHT SIDE CONTENT */}
+            <div className="lg:col-span-5 relative">
+              {/* Corner Decorations */}
+              <div className="absolute -inset-4 pointer-events-none">
+                <div className="absolute top-0 left-0 w-16 h-16 border-t-2 border-l-2 border-orange-600/10"></div>
+                <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-orange-600/10"></div>
+                <div className="absolute bottom-0 left-0 w-16 h-16 border-l-2 border-b-2 border-orange-600/10"></div>
+                <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-orange-600/10"></div>
+              </div>
+              <div className="relative aspect-square max-w-lg mx-auto">
+                <div className="relative overflow-hidden rounded-lg bg-cyber-black">
+                  <img
+                    src="/hero-ai3.png"
+                    alt="ai-fittnes-coach"
+                    className="size-full object-cover object-center"
+                  />
+                  {/* SCAN LINE WITH OVERLAY*/}
+                  <div className="absolute inset-0 bg-[linear-gradient(transparent_0%,transparent_calc(50%-1px),var(--cyber-glow-primary)_50%,transparent_calc(50%+1px),transparent_100%)] bg-[length:100%_8px] animate-scanline pointer-events-none" />
+                  <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent"></div>
+
+                  {/* TERMINAL OVERLAY */}
+                  <TerminalOverlay />
+                </div>
               </div>
             </div>
           </div>
