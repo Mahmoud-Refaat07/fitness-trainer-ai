@@ -114,8 +114,8 @@ const page = () => {
                     className="size-full object-cover object-center"
                   />
                   {/* SCAN LINE WITH OVERLAY*/}
-                  <div className="absolute inset-0 bg-[linear-gradient(transparent_0%,transparent_calc(50%-1px),var(--cyber-glow-primary)_50%,transparent_calc(50%+1px),transparent_100%)] bg-[length:100%_8px] animate-scanline pointer-events-none" />
-                  <div className="absolute inset-0 bg-linear-to-t from-background via-background/40 to-transparent"></div>
+                  <div className="absolute inset-0 bg-[linear-gradient(transparent_0%,transparent_calc(50%-1px),rgba(255,120,30,0.6)_50%,transparent_calc(50%+1px),transparent_100%)] bg-[length:100%_8px] animate-scanline pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
 
                   {/* TERMINAL OVERLAY */}
                   <TerminalOverlay />
