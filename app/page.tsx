@@ -1,11 +1,13 @@
 import TerminalOverlay from "@/components/TerminalOverlay";
 import { Button } from "@/components/ui/button";
+import UserPrograms from "@/components/UserPrograms";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 const page = () => {
   return (
     <div className="flex flex-col min-h-screen text-foreground overflow-hidden">
+      {/* HERO Section */}
       <section className="relative z-10 py-24 grow">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative">
@@ -123,6 +125,8 @@ const page = () => {
           </div>
         </div>
       </section>
+      {/* FEATURES Section */}
+      <UserPrograms />
     </div>
   );
 };
