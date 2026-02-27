@@ -16,12 +16,12 @@ const Footer = () => {
                 <ZapIcon className="w-4 h-4 text-orange-500" />
               </div>
               <span className="text-xl font-bold font-mono tracking-tight">
-                Fitt<span className="text-orange-500">Trainer</span>
+                Fit<span className="text-orange-500">Trainer</span>
                 <span className="text-orange-600/50">.ai</span>
               </span>
             </Link>
             <p className="text-xs text-gray-600 font-mono">
-              © 2026 fittTrainer.ai
+              © 2026 fitTrainer.ai
             </p>
             <p className="text-xs text-gray-600 font-mono">
               All rights reserved by Mahmoud Refaat

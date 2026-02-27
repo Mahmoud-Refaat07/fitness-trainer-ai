@@ -17,7 +17,7 @@ const Navbar = () => {
             <ZapIcon className="text-orange-500" size={18} />
           </div>
           <span className="text-xl font-bold font-mono tracking-tight">
-            Fitt<span className="text-orange-500">Trainer</span>
+            Fit<span className="text-orange-500">Trainer</span>
             <span className="text-orange-600/60">.ai</span>
           </span>
         </Link>
