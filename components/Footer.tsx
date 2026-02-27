@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="border-t border-orange-600/20 bg-black/60 backdrop-blur-sm">
       {/* Top border glow */}
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-orange-500/40 to-transparent"></div>
+      <div className="h-px w-full bg-linear-to-r from-transparent via-orange-500/40 to-transparent"></div>
 
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
@@ -21,7 +21,10 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-xs text-gray-600 font-mono">
-              © 2026 fittTrainer.ai — All rights reserved by Mahmoud Refaat
+              © 2026 fittTrainer.ai
+            </p>
+            <p className="text-xs text-gray-600 font-mono">
+              All rights reserved by Mahmoud Refaat
             </p>
           </div>
 
@@ -42,7 +45,7 @@ const Footer = () => {
 
           {/* Status */}
           <div className="flex items-center gap-2 px-3 py-2 border border-orange-600/20 rounded-md bg-black/40 font-mono">
-            <div className="w-2 h-2 rounded-full bg-orange-500 animate-pulse"></div>
+            <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
             <span className="text-xs text-orange-400 tracking-widest">
               SYSTEM OPERATIONAL
             </span>
@@ -51,7 +54,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom border glow */}
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-orange-600/20 to-transparent"></div>
+      <div className="h-px w-full bg-linear-to-r from-transparent via-orange-600/20 to-transparent"></div>
     </footer>
   );
 };
