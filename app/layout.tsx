@@ -34,11 +34,12 @@ export default function RootLayout({
         >
           <Navbar />
           <div className="fixed inset-0 -z-1">
-            <div className="absolute inset-0 bg-[linear-gradient(to_bottom,#050508,#09090f,#0e0d14,#09090f)]"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_40%_at_50%_0%,rgba(255,120,20,0.1),transparent_65%)]"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_120%,rgba(60,20,80,0.2),transparent_70%)]"></div>
-            <div className="absolute inset-0 bg-[radial-gradient(ellipse_100%_100%_at_50%_50%,transparent_40%,rgba(0,0,0,0.6)_100%)]"></div>
-            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,130,50,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(255,130,50,0.05)_1px,transparent_1px)] bg-[size:24px_24px]"></div>
+            <div className="absolute inset-0 bg-[#060504]"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_50%,rgba(255,100,20,0.08),transparent_70%)]"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_30%_at_50%_50%,rgba(255,140,30,0.05),transparent_60%)]"></div>
+            <div className="absolute inset-0 bg-[radial-gradient(ellipse_100%_100%_at_50%_50%,transparent_50%,rgba(0,0,0,0.8)_100%)]"></div>
+            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,120,40,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,120,40,0.04)_1px,transparent_1px)] bg-[size:32px_32px]"></div>
+            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,120,40,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,120,40,0.02)_1px,transparent_1px)] bg-[size:8px_8px]"></div>
           </div>
           <div className="pt-24 grow">{children}</div>
           <Footer />
